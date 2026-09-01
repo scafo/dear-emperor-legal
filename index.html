@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy  -  Dear Emperor</title>
+<style>
+  body { color-scheme: light; background:#ffffff; color:#1a1a1a; font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; line-height: 1.6; }
+  h1 { font-size: 28px; margin-bottom: 4px; }
+  .updated { color:#666; font-size:14px; margin-top:0; }
+  a { color: #1a1a1a; }
+</style>
+</head>
+<body>
+  <h1>Privacy Policy  -  Dear Emperor</h1>
+  <p class="updated">Last updated: August 31, 2026</p>
+
+  <p>This policy describes how Dear Emperor ("the app," "we," "us") handles information. It's written to be accurate for the app as it works today, and will need a short update if what's described below changes later  -  see "Changes to this policy."</p>
+
+  <h2>The short version</h2>
+  <p>Most of what Dear Emperor tracks about your progress stays only on your device. A small part is synced to a server we control, so your streak and rank aren't lost if you reinstall the app or switch phones, and so a request you make from the app (like asking for a change of assignment) can reach us  -  this is tied to an anonymous identifier, never your name or email, unless you separately choose to sign in with Apple. We also collect a small amount of anonymous usage data (which screens you open, whether you filed a report) to understand how the app is used. We never collect the free text you write yourself, like your personal goal.</p>
+
+  <h2>What the app stores, and where</h2>
+  <p>All of the following is stored <strong>only on your device</strong>, using standard iOS local storage (never transmitted anywhere):</p>
+  <ul>
+    <li>The habit, wake time, and report time you chose during enrollment, and any personal goal or note you write</li>
+    <li>Your chosen background/appearance and language setting</li>
+    <li>Your Continental Blockade (Screen Time) configuration, if you use that feature</li>
+  </ul>
+  <p>This data is deleted if you uninstall the app, or immediately if you use the in-app "Definitive discharge" option in Settings, which erases it and returns the app to its starting state.</p>
+
+  <h2>What's synced to our server</h2>
+  <p>Your campaign progress  -  current day, streak, rank, medals, regiment/marshal assignment, and report counters  -  is synced to a database we run on Supabase, so it survives a reinstall and so you can ask us (from the Libretto screen) to change your assignment. This is tied to an <strong>anonymous identifier</strong> generated on your device, not to your name or email  -  unless you choose to sign in with Apple, in which case the email and name Apple provides are stored too, only so we can recognize and help a paying subscriber who contacts us. See <a href="https://supabase.com/privacy">Supabase's privacy policy</a> for how they handle this data on our behalf.</p>
+
+  <h2>Anonymous usage analytics</h2>
+  <p>We use PostHog to understand which parts of the app people actually use: which screens you open, and a fixed set of events (e.g. starting enrollment, filing a nightly report, earning a medal, ranking up, viewing the paywall, completing a purchase). These are always sent as categories or counts  -  for example, which habit category you picked, never the sentence you typed for your personal goal  -  and tied to the same anonymous identifier as above, never your name.</p>
+
+  <h2>Screen Time / Family Controls</h2>
+  <p>If you choose to use the Continental Blockade feature, the app asks iOS for Screen Time authorization (Apple's <code>Family Controls</code> framework) to let you block distracting apps during time windows you set. This works entirely through Apple's own on-device APIs: <strong>we never see which apps you have, which ones you've chosen to block, or how you use your phone.</strong> The list of apps you select is handled by Apple's system picker and never leaves your device.</p>
+
+  <h2>Notifications</h2>
+  <p>The app schedules local notifications (e.g., your daily order, a reminder before your report window closes) directly on your device using iOS's notification system. These are not push notifications from a server  -  nothing is sent to us to trigger them.</p>
+
+  <h2>In-app purchases</h2>
+  <p>If you subscribe to the Vecchia Guardia (Old Guard) tier, the purchase itself is handled entirely by Apple's App Store  -  we never see or store your payment details. To manage and verify subscriptions, we use RevenueCat, a subscription-management service; RevenueCat receives a device/subscriber identifier and your purchase and subscription status only. This is standard practice for apps that sell subscriptions and is limited to what's needed to know whether your subscription is active. See <a href="https://www.revenuecat.com/privacy">RevenueCat's privacy policy</a> for how they handle this data.</p>
+
+  <h2>What we don't do</h2>
+  <ul>
+    <li>We don't have advertising or third-party trackers of any kind  -  nothing here is used to advertise to you or to anyone else, on or off the app.</li>
+    <li>We don't ask for your name, email, contacts, location, camera, or photos, and don't collect them, unless you separately choose to sign in with Apple (see "What's synced to our server").</li>
+    <li>We don't sell your data, and don't share it with anyone beyond the named service providers above (Supabase, PostHog, RevenueCat), each of whom only processes it to provide their specific service to us.</li>
+  </ul>
+
+  <h2>Children's privacy</h2>
+  <p>The app is not directed at children and does not knowingly collect information from anyone.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If what the app collects changes in a future update, this policy will be updated first, and the update will be reflected in the app's "What's New" notes.</p>
+
+  <h2>Who runs the app</h2>
+  <p>Dear Emperor is run by Nicolo Bernardini, sole proprietorship, Via della Pace 1b, 6600 Locarno, Switzerland.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy, or a request to see or delete your data: <a href="mailto:olocin27@gmail.com">olocin27@gmail.com</a></p>
+  <p>You can also delete everything yourself, without writing to us: <strong>Libretto -> Settings -> Definitive discharge</strong> erases your progress on this device and deletes your row from our database.</p>
+</body>
+</html>
