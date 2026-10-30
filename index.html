@@ -13,12 +13,12 @@
 </head>
 <body>
   <h1>Privacy Policy  -  Dear Emperor</h1>
-  <p class="updated">Last updated: October 10, 2026</p>
+  <p class="updated">Last updated: October 30, 2026</p>
 
   <p>This policy describes how Dear Emperor ("the app," "we," "us") handles information. It's written to be accurate for the app as it works today, and will need a short update if what's described below changes later  -  see "Changes to this policy."</p>
 
   <h2>The short version</h2>
-  <p>Most of what Dear Emperor tracks about your progress stays only on your device. A small part is synced to a server we control, so your streak and rank aren't lost if you reinstall the app or switch phones, and so a request you make from the app (like asking for a change of assignment) can reach us  -  this is tied to an anonymous identifier and the war name you choose in the app, never your real name or email, unless you choose to create an account (with Apple, Google or email). We also collect a small amount of anonymous usage data (which screens you open, whether you filed a report) to understand how the app is used. We never collect the free text you write yourself, like your personal goal.</p>
+  <p>Most of what Dear Emperor tracks about your progress stays only on your device. A small part is synced to a server we control, so your streak and rank aren't lost if you reinstall the app or switch phones, and so a request you make from the app (like asking for a change of assignment) can reach us  -  this is tied to an anonymous identifier and the war name you choose in the app, never your real name or email, unless you choose to create an account (with Apple, Google or email). We also collect a small amount of anonymous usage data (which screens you open, whether you filed a report) to understand how the app is used. We never collect the free text you write yourself, like your personal goal; the only exception is a letter you choose to send to other players (see "Companies and letters").</p>
 
   <h2>What the app stores, and where</h2>
   <p>All of the following is stored <strong>only on your device</strong>, using the device's standard local storage (never transmitted anywhere):</p>
@@ -38,6 +38,10 @@
   <p>On the leaderboards, other players can see only your position, your war name, your rank and the number being ranked. They never see your goal, your notes, your email or any other data. Every player gets a random public identifier, used only so that a name can be reported or blocked; it is not linked to your account in any way visible to others.</p>
   <p>You can leave the leaderboards at any time with "Hide me from rankings" on the leaderboard screen: you keep playing, but your name no longer appears. War names that are reported as offensive may be replaced with "Soldato" and a number. All of this is deleted together with the rest of your data when you use "Definitive discharge".</p>
 
+  <h2>Companies and letters</h2>
+  <p>You can join a company with other players. Its members can see your war name, your rank, your streak, your reports of the week and whether you have filed today's report. They can also send you a wake-up reminder (see "Notifications").</p>
+  <p>If you choose to write a letter to other players (70 characters at most), its text and your war name are stored on our server and delivered to a player chosen at random. You can report a letter you receive: it disappears and its sender is blocked for you. Letters are deleted together with the rest of your data when you use "Definitive discharge".</p>
+
   <h2>Optional account</h2>
   <p>Creating an account is optional and never required to use the app or to buy anything. If you choose to create one, you can sign in with Apple, with Google, or with an email address and password; the email address (and the name, if Apple or Google provides it) is stored by Supabase Auth, only so you can restore your progress on a new device and so we can recognize and help a subscriber who contacts us. Passwords are handled by Supabase Auth and are never visible to us. See <a href="https://supabase.com/privacy">Supabase's privacy policy</a> for how they handle this data on our behalf.</p>
 
@@ -50,6 +54,7 @@
 
   <h2>Notifications</h2>
   <p>The app schedules local notifications (e.g., your daily order, a reminder before your report window closes) directly on your device using the system's notification service. These are not push notifications from a server  -  nothing is sent to us to trigger them.</p>
+  <p>The only exception is the wake-up reminder: a member of your company can send you one if you haven't filed today's report. If you have allowed notifications, your device's push token and your language are stored on our server for this purpose only, and the reminder (with the war name of the sender) is delivered through Expo's push service and Apple or Google. You can turn it off by disabling notifications for the app in your phone's settings. The token is deleted together with the rest of your data when you use "Definitive discharge". See <a href="https://expo.dev/privacy">Expo's privacy policy</a>.</p>
 
   <h2>In-app purchases</h2>
   <p>If you subscribe to the Vecchia Guardia (Old Guard) tier or buy a book background, the purchase itself is handled entirely by Apple's App Store or Google Play  -  we never see or store your payment details. To manage and verify subscriptions, we use RevenueCat, a subscription-management service; RevenueCat receives a device/subscriber identifier and your purchase and subscription status only. This is standard practice for apps that sell subscriptions and is limited to what's needed to know whether your subscription is active. See <a href="https://www.revenuecat.com/privacy">RevenueCat's privacy policy</a> for how they handle this data.</p>
@@ -58,7 +63,7 @@
   <ul>
     <li>We don't have advertising or third-party trackers of any kind  -  nothing here is used to advertise to you or to anyone else, on or off the app.</li>
     <li>We don't ask for your real name, email, contacts, location, camera, or photos, and don't collect them, unless you choose to create an account (see "Optional account").</li>
-    <li>We don't sell your data, and don't share it with anyone beyond the named service providers above (Supabase, PostHog, RevenueCat), each of whom only processes it to provide their specific service to us.</li>
+    <li>We don't sell your data, and don't share it with anyone beyond the named service providers above (Supabase, PostHog, RevenueCat, Expo), each of whom only processes it to provide their specific service to us.</li>
   </ul>
 
   <h2>Children's privacy</h2>
